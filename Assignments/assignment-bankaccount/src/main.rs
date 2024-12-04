@@ -32,7 +32,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_new_account() {
+/workspaces/rustfall2024/Assignments/assignment-enum    fn test_new_account() {
         let account = BankAccount::new(100.0);
         assert_eq!(account.balance(), 100.0);
     }
