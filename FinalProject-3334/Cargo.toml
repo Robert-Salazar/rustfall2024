@@ -1,0 +1,15 @@
+[package]
+name = "FP2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ureq = "2.6"
+
+[dev-dependencies]
+httpmock = "0.6"
+
+[lib]
+name = "FP2"
+path = "src/lib.rs"
+
